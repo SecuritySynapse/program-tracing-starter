@@ -81,13 +81,14 @@ _Reminder: Record performance metrics and trace file sizes._
 ## Analyze Results
 
 Summarize the findings from the experiments in this report. The report should include:
-    - An overview of the selected Python program and test suite.
-    - A description of the trace output and its verification.
-    - Results from the trace analysis, including any notable patterns or insights.
-    - A comparison of different traces, highlighting key differences.
-    - Efficiency analysis results, including performance metrics and trace file sizes.
-    - Any challenges encountered during the experiment and how they were addressed.
-    - The lessons learned from conducting this experiment with the `programtracer` tool.
+
+  - An overview of the selected Python program and test suite.
+  - A description of the trace output and its verification.
+  - Results from the trace analysis, including any notable patterns or insights.
+  - A comparison of different traces, highlighting key differences.
+  - Efficiency analysis results, including performance metrics and trace file sizes.
+  - Any challenges encountered during the experiment and how they were addressed.
+  - The lessons learned from conducting this experiment with the `programtracer` tool.
 
 _Reminder: Provide a comprehensive summary of your findings and insights._
 
