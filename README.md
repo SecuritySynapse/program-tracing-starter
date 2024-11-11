@@ -72,7 +72,15 @@ implementation, and experimentation needed to implement and use the
 Your `programtracer` will take as input a Python program and/or a Python
 program's test suite, and then produce a detailed trace of the program's
 behavior. To learn more about program tracing, please consult the following
-references:
+references organized into the following technical categories:
+
+- **Concepts**: Introduction to the technical concepts of program analysis and dynamic
+malware analysis.
+    - [10 Malware Detection
+Techniques](https://www.crowdstrike.com/en-us/cybersecurity-101/malware/malware-detection/)
+    - [What is a Malware Signature and How Does it Work?](https://www.sentinelone.com/blog/what-is-a-malware-file-signature-and-how-does-it-work/)
+    - [Tracing Executions](https://www.debuggingbook.org/beta/html/Tracer.html)
+    - [Tracking Failure Origins](https://www.debuggingbook.org/beta/html/Slicer.html)
 
 ## 🚀 Implementation Details
 
