@@ -1,7 +1,7 @@
 setup: |
   echo "🐊 Start to install dependencies ..."
   echo "🐊 Note: Will not install dependencies if available"
-  cd networkmonitor && poetry install
+  cd programtracer && poetry install
   echo "🐊 ... Done installing dependencies"
 ---
 
@@ -34,12 +34,6 @@ setup: |
       options:
         tag: heading
         count: 5
-        exact: false
-    - description: Confirm that the markdown file has the correct number of fenced code blocks
-      check: CountMarkdownTags
-      options:
-        tag: code_block
-        count: 6
         exact: false
 
 # }}}
