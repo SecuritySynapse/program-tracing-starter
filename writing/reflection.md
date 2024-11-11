@@ -49,10 +49,10 @@ _Reminder: Ensure the trace files are accurate and complete._
 TODO: Using a table in Markdown, for each selected program and its test suite,
 use the `programtracer` tool's analysis features to gather information about the
 trace. This includes:
-- The number of instructions in the trace.
-- The number of times each instruction was executed.
-- The number of times variables were accessed by instructions.
-- The number of unique values stored in the variables accessed by the instructions.
+    - The number of instructions in the trace.
+    - The number of times each instruction was executed.
+    - The number of times variables were accessed by instructions.
+    - The number of unique values stored in the variables accessed by the instructions.
 
 _Reminder: Document the analysis results for each program._
 
@@ -87,15 +87,15 @@ _Reminder: Organize and label all collected data clearly._
 ## Report Results
 
 Summarize the findings from the experiment in this report. The report should include:
-- An overview of the selected Python program and test suite.
-- A description of the trace output and its verification.
-- Results from the trace analysis, including any notable patterns or insights.
-- A comparison of different traces, highlighting key differences.
-- Efficiency analysis results, including performance metrics and trace file sizes.
-- Any challenges encountered during the experiment and how they were addressed.
+    - An overview of the selected Python program and test suite.
+    - A description of the trace output and its verification.
+    - Results from the trace analysis, including any notable patterns or insights.
+    - A comparison of different traces, highlighting key differences.
+    - Efficiency analysis results, including performance metrics and trace file sizes.
+    - Any challenges encountered during the experiment and how they were addressed.
+    - The lessons learned from conducting this experiment with the `programtracer` tool.
 
 _Reminder: Provide a comprehensive summary of your findings and insights._
-
 
 ### Take Home Points
 
