@@ -10,6 +10,17 @@
 
 <!---toc start-->
 
+* [🔬 Program Tracing](#-program-tracing)
+  * [✨ Table of Contents](#-table-of-contents)
+  * [🏁 Introduction](#-introduction)
+  * [🤝 Seeking Assistance](#-seeking-assistance)
+  * [🛫 Project Overview](#-project-overview)
+  * [🏁 Getting Started](#-getting-started)
+  * [📚 Background Research](#-background-research)
+  * [🚀 Implementation Details](#-implementation-details)
+  * [🎉 Experiment Details](#-experiment-details)
+  * [✨ Additional Information](#-additional-information)
+
 <!---toc end-->
 
 ## 🏁 Introduction
@@ -137,19 +148,62 @@ variable is accessed by instructions, and the number of unique values stored in
 the variables accessed by the instructions.
 - **Trace Comparison**: The `programtracer` should be able to compare two traces
 and surface the similarities and differences between the them. This feature
-would be useful in the context of malware analysis to compare the behavior of
-a new program to a well-known malware program.
+would be useful in the context of malware analysis to compare the behavior of a
+new program to a well-known malware program.
 - **Efficiency Analysis**: The `programtracer` should offer at least two
-efficiency analysis features that involve tasks such as creating the trace,
-saving the trace, analyzing one or more traces, or the size of the traces when
-either stored in memory or on disk.
+efficiency analysis features that involve measuring the performance of tasks
+such as creating the trace, saving the trace, analyzing one or more traces, or
+the size of the traces when either stored in memory or on disk.
 
-You should aim to implement all of these features as a part of your
+You should aim to fully implement all of these features as a part of your
 `programtracer` tool. If you are not able to implement a specific feature, then
 you must both document the steps that you took and explain why it was not
-possible to implement a featured in `writing/reflection.md` file.
+possible to fully implement a featured in `writing/reflection.md` file.
 
 ## 🎉 Experiment Details
+
+To evaluate the `programtracer` tool, you should conduct an experiment that
+(loosely) follows the following steps:
+
+- **Select a Python Program and Test Suite**: Choose at least five small- to
+medium-sized Python program and their corresponding Pytest test suites. Make
+sure that these are all programs that you did not implement yourself. Aim to
+strike a balance between programs that are realistic and programs that are
+small enough that you can feasibly analyze and understand their traces.
+
+- **Run the `programtracer` Tool**: Execute the `programtracer` tool on the
+selected Python program and its test suite. Ensure that the tool generates a
+trace file in the specified format (i.e., plaintext, CSV, or JSON).
+
+3. **Verify the Trace Output**:
+    - Manually inspect the trace file to verify that it accurately records the execution of the Python program. Check that the trace includes details such as executed instructions, variable values, and any other relevant information.
+
+4. **Analyze the Trace**:
+    - Use the `programtracer` tool's analysis features to gather information about the trace. This includes:
+        - The number of instructions in the trace.
+        - The number of times each instruction was executed.
+        - The number of times variables were accessed by instructions.
+        - The number of unique values stored in the variables accessed by the instructions.
+
+5. **Compare Traces**:
+    - If applicable, run the `programtracer` tool on another Python program or a modified version of the original program. Compare the two traces to identify similarities and differences in their execution behavior.
+
+6. **Efficiency Analysis**:
+    - Measure the performance of the `programtracer` tool by timing tasks such as creating the trace, saving the trace, and analyzing the trace. Record the size of the trace files when stored in memory and on disk.
+
+7. **Collect Data**:
+    - Collect all relevant data from the analysis and efficiency measurements. Ensure that the data is well-organized and clearly labeled.
+
+8. **Report Results**:
+    - Summarize the findings from the experiment in a report. The report should include:
+        - An overview of the selected Python program and test suite.
+        - A description of the trace output and its verification.
+        - Results from the trace analysis, including any notable patterns or insights.
+        - A comparison of different traces, highlighting key differences.
+        - Efficiency analysis results, including performance metrics and trace file sizes.
+        - Any challenges encountered during the experiment and how they were addressed.
+
+
 
 ## ✨ Additional Information
 
