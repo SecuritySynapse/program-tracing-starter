@@ -139,6 +139,10 @@ the variables accessed by the instructions.
 and surface the similarities and differences between the them. This feature
 would be useful in the context of malware analysis to compare the behavior of
 a new program to a well-known malware program.
+- **Efficiency Analysis**: The `programtracer` should offer at least two
+efficiency analysis features that involve tasks such as creating the trace,
+saving the trace, analyzing one or more traces, or the size of the traces when
+either stored in memory or on disk.
 
 You should aim to implement all of these features as a part of your
 `programtracer` tool. If you are not able to implement a specific feature, then
