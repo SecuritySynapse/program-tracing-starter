@@ -140,6 +140,11 @@ and surface the similarities and differences between the them. This feature
 would be useful in the context of malware analysis to compare the behavior of
 a new program to a well-known malware program.
 
+You should aim to implement all of these features as a part of your
+`programtracer` tool. If you are not able to implement a specific feature, then
+you must both document the steps that you took and explain why it was not possible to
+implement a featured in `writing/reflection.md` file.
+
 ## 🎉 Experiment Details
 
 ## ✨ Additional Information
