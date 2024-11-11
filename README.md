@@ -46,7 +46,9 @@ malware of a system. This project invites you to explore more about **dynamic
 malware analysis** where you will write a `programtracer` that will observe the
 execution of a Python program and then record a program trace that a malware
 analyst could study so as to better understand its behavior and to perhaps
-extract a behavior signature that could be used to detect it in the future.
+extract a behavior signature that could be used to detect it in the future. The
+`programtracer` should be able to perform a rudimentary analysis of a save trace
+and compare two different traces that it previously produced.
 
 ## 🏁 Getting Started
 
