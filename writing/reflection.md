@@ -36,17 +36,18 @@ _Reminder: Verify that the trace files are generated correctly for each program.
 ## Verify the Trace Output
 
 TODO: For each selected program and its test suite, manually inspect the
-majority of the trace file to verify that it accurately records the program's
-execution. Check that the trace includes details such as executed instructions,
-variable values, and any other relevant runtime information. Provide a checklist
-of the steps that you followed to verify the trace output, indicating whether or
-not you were able to verify the trace output at each step.
+majority of the trace file in the `traces` directory to verify that it
+accurately records the program's execution. Check that the trace includes
+details such as executed instructions, variable values, and any other relevant
+runtime information. Provide a checklist of the steps that you followed to
+verify the trace output, indicating whether or not you were able to verify the
+trace output at each step.
 
 _Reminder: Ensure the trace files are accurate and complete._
 
 ## Analyze the Trace
 
-TODO: Using a table in Markdown, for each selected program and its test suite,
+TODO: Using Markdown tables, for each selected program and its test suite,
 use the `programtracer` tool's analysis features to gather information about the
 trace. This includes:
     - The number of instructions in the trace.
@@ -59,11 +60,12 @@ _Reminder: Document the analysis results for each program._
 ## Compare Traces
 
 TODO: After making a change to the source code of each Python program, run the
-`programtracer` tool on it. Compare the traces that arise from this modified
-program and the original to identify the similarities and differences in their
-execution behavior. Provide excerpts of the program traces and an analysis of
-them to confirm whether or nor your `programtracer` tool can surface enough
-information that would help you to characterize the differences in program behavior.
+`programtracer` tool on it. Manually compare the traces that arise from this
+modified program and the original to identify the similarities and differences
+in their execution behavior. Provide excerpts of the program traces and an
+analysis of them to confirm whether or nor your `programtracer` tool can
+surface enough information that would help you to characterize the differences
+in program behavior.
 
 _Reminder: Highlight key differences and similarities in the traces._
 
@@ -71,20 +73,12 @@ _Reminder: Highlight key differences and similarities in the traces._
 
 TODO: For each selected program and its test suite, time the execution of the
 `programtracer` tool when it is completing tasks such as creating the trace,
-saving the trace, and analyzing the trace. Record the size of the trace files
-when stored in memory and on disk.
+saving the trace, and analyzing the trace. Using Markdown tables, record the
+size of the trace files when stored in memory and on disk.
 
 _Reminder: Record performance metrics and trace file sizes._
 
-## Collect Data
-
-Collect all relevant data from the analysis and efficiency measurements. Ensure
-that the data is well-organized and clearly labeled and add it to this
-reflection document.
-
-_Reminder: Organize and label all collected data clearly._
-
-## Report Results
+## Analyze Results
 
 Summarize the findings from the experiment in this report. The report should include:
     - An overview of the selected Python program and test suite.
