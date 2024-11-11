@@ -20,6 +20,83 @@ interface, command-line interface, or text-based interface) or through its test
 suite. You cannot use projects that you created for a class at Allegheny College;
 you must use real-world projects created by external software developers.
 
+_Reminder: Select diverse programs to ensure a comprehensive evaluation._
+
+## Run the `programtracer` Tool
+
+TODO: Execute the `programtracer` tool on each of the selected Python programs
+and its test suite. Ensure that the tool generates a trace file in the specified
+format (i.e., plaintext, CSV, or JSON). Create a directory called `traces` and
+save all of your trace files in this directory. Make sure that it is clear which
+of the five projects you used as subjects to conduct your program tracing
+resulted in each of the trace files.
+
+_Reminder: Verify that the trace files are generated correctly for each program._
+
+## Verify the Trace Output
+
+TODO: For each selected program and its test suite, manually inspect the
+majority of the trace file to verify that it accurately records the program's
+execution. Check that the trace includes details such as executed instructions,
+variable values, and any other relevant runtime information. Provide a checklist
+of the steps that you followed to verify the trace output, indicating whether or
+not you were able to verify the trace output at each step.
+
+_Reminder: Ensure the trace files are accurate and complete._
+
+## Analyze the Trace
+
+TODO: Using a table in Markdown, for each selected program and its test suite,
+use the `programtracer` tool's analysis features to gather information about the
+trace. This includes:
+- The number of instructions in the trace.
+- The number of times each instruction was executed.
+- The number of times variables were accessed by instructions.
+- The number of unique values stored in the variables accessed by the instructions.
+
+_Reminder: Document the analysis results for each program._
+
+## Compare Traces
+
+TODO: After making a change to the source code of each Python program, run the
+`programtracer` tool on it. Compare the traces that arise from this modified
+program and the original to identify the similarities and differences in their
+execution behavior. Provide excerpts of the program traces and an analysis of
+them to confirm whether or nor your `programtracer` tool can surface enough
+information that would help you to characterize the differences in program behavior.
+
+_Reminder: Highlight key differences and similarities in the traces._
+
+## Efficiency Analysis
+
+TODO: For each selected program and its test suite, time the execution of the
+`programtracer` tool when it is completing tasks such as creating the trace,
+saving the trace, and analyzing the trace. Record the size of the trace files
+when stored in memory and on disk.
+
+_Reminder: Record performance metrics and trace file sizes._
+
+## Collect Data
+
+Collect all relevant data from the analysis and efficiency measurements. Ensure
+that the data is well-organized and clearly labeled and add it to this
+reflection document.
+
+_Reminder: Organize and label all collected data clearly._
+
+## Report Results
+
+Summarize the findings from the experiment in this report. The report should include:
+- An overview of the selected Python program and test suite.
+- A description of the trace output and its verification.
+- Results from the trace analysis, including any notable patterns or insights.
+- A comparison of different traces, highlighting key differences.
+- Efficiency analysis results, including performance metrics and trace file sizes.
+- Any challenges encountered during the experiment and how they were addressed.
+
+_Reminder: Provide a comprehensive summary of your findings and insights._
+
+
 ### Take Home Points
 
 TODO: Provide a two to three sentence statement about the key takeaways from
