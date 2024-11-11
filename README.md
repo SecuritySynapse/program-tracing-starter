@@ -116,7 +116,27 @@ Once you have an implementation that is working for a small Python project, you
 should create a complete implementation of the `programtracer` project, using
 the `main.py` file to implement the command-line interface (CLI) for the
 program. As you add features to your tool you should confirm that it works for
-progressively larger Python programs and test suites.
+progressively larger Python programs and test suites. You should then implement
+the following features into your `programtracer` tool:
+
+- **Command-Line Interface**: The `programtracer` should have a command-line
+that accepts the name of a Python program and/or a Python program's test suite
+and then performs the program tracing when the tests run on the program.
+- **Program Tracing**: The `programtracer` should trace the execution of a
+Python program and save the trace in a suitable format in a specified directory
+and file.
+- **Variable Tracking**: The `programtracer` should track the values of
+variables as they are referenced by the specific instructions in the program's
+source code.
+- **Trace Analysis**: The `programtracer` should be able to analyze the trace by
+reporting information about, for instance, the number of instructions in the
+trace, the number of times each instruction was executed, the number of times a
+variable is accessed by instructions, and the number of unique values stored in
+the variables accessed by the instructions.
+- **Trace Comparison**: The `programtracer` should be able to compare two traces
+and surface the similarities and differences between the them. This feature
+would be useful in the context of malware analysis to compare the behavior of
+a new program to a well-known malware program.
 
 ## 🎉 Experiment Details
 
