@@ -146,8 +146,8 @@ either stored in memory or on disk.
 
 You should aim to implement all of these features as a part of your
 `programtracer` tool. If you are not able to implement a specific feature, then
-you must both document the steps that you took and explain why it was not possible to
-implement a featured in `writing/reflection.md` file.
+you must both document the steps that you took and explain why it was not
+possible to implement a featured in `writing/reflection.md` file.
 
 ## 🎉 Experiment Details
 
