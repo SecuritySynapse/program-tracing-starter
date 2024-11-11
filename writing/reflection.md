@@ -25,11 +25,13 @@ _Reminder: Select diverse programs to ensure a comprehensive evaluation._
 ## Run the `programtracer` Tool
 
 TODO: Execute the `programtracer` tool on each of the selected Python programs
-and its test suite. Ensure that the tool generates a trace file in the specified
-format (i.e., plaintext, CSV, or JSON). Create a directory called `traces` and
-save all of your trace files in this directory. Make sure that it is clear which
-of the five projects you used as subjects to conduct your program tracing
-resulted in each of the trace files.
+and its test suite. Ensure that the tool generates a trace file in the
+specified format (i.e., plaintext, CSV, or JSON). Create a directory called
+`traces/` and save all of your trace files in this directory, confirming that
+this directory is available inside of your GitHub repository. By varying the
+name of the file that contains each trace, make sure that it is clear which of
+the five projects you used as subjects to conduct your program tracing resulted
+in each of the trace files.
 
 _Reminder: Verify that the trace files are generated correctly for each program._
 
