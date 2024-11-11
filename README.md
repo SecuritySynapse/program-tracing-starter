@@ -48,10 +48,7 @@ execution of a Python program and then record a program trace that a malware
 analyst could study so as to better understand its behavior and to perhaps
 extract a behavior signature that could be used to detect it in the future.
 
-### Features
-
-
-### Getting Started
+## 🏁 Getting Started
 
 After cloning this repository to your computer, please take the following steps
 to get started on the project:
@@ -66,7 +63,20 @@ recent version of Poetry please upgrade before proceeding.
 one or more times in order to avoid the appearance of warnings when you next run
 the `programtracer` program.
 
-### Additional Information
+Please note that you are invited to complete all of the background research,
+implementation, and experimentation needed to implement and use the
+`programtracer`, as outlined further in the following subsections.
+
+## 📚 Background Research
+
+Your `programtracer` will take as input a Python program and/or a Python
+program's test suite, and then produce a detailed trace of the program's
+behavior. To learn more about program tracing, please consult the following
+references:
+
+## 🚀 Implementation Details
+
+## ✨ Additional Information
 
 - If you have already installed the
 [GatorGrade](https://github.com/GatorEducator/gatorgrade) program that runs the
