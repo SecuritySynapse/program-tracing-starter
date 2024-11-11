@@ -50,10 +50,11 @@ _Reminder: Ensure the trace files are accurate and complete._
 TODO: Using Markdown tables, for each selected program and its test suite,
 use the `programtracer` tool's analysis features to gather information about the
 trace. This includes:
-    - The number of instructions in the trace.
-    - The number of times each instruction was executed.
-    - The number of times variables were accessed by instructions.
-    - The number of unique values stored in the variables accessed by the instructions.
+
+  - The number of instructions in the trace.
+  - The number of times each instruction was executed.
+  - The number of times variables were accessed by instructions.
+  - The number of unique values stored in the variables accessed by the instructions.
 
 _Reminder: Document the analysis results for each program._
 
