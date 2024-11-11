@@ -71,8 +71,10 @@ implementation, and experimentation needed to implement and use the
 
 Your `programtracer` will take as input a Python program and/or a Python
 program's test suite, and then produce a detailed trace of the program's
-behavior. To learn more about program tracing, please consult the following
-references organized into the following technical categories:
+behavior. The trace should record all of the details about the specific
+instructions that were run during the execution of the Python program. To learn
+more about program tracing, please consult the following references organized
+into the following technical categories:
 
 - **Concepts**: Introduction to the technical concepts of program analysis and dynamic
 malware analysis.
@@ -81,8 +83,24 @@ Techniques](https://www.crowdstrike.com/en-us/cybersecurity-101/malware/malware-
     - [What is a Malware Signature and How Does it Work?](https://www.sentinelone.com/blog/what-is-a-malware-file-signature-and-how-does-it-work/)
     - [Tracing Executions](https://www.debuggingbook.org/beta/html/Tracer.html)
     - [Tracking Failure Origins](https://www.debuggingbook.org/beta/html/Slicer.html)
+- **Packages**: Built-in packages for program tracing in Python
+    - [Python `sys`](https://docs.python.org/3/library/sys.html)
+    - [Python `settrace`](https://docs.python.org/3/library/sys.html#sys.settrace)
+    - [Python `monitoring`](https://docs.python.org/3/library/sys.monitoring.html)
+    - [Python `trace`](https://docs.python.org/3/library/trace.html)
+    - [Python `inspect`](https://docs.python.org/3/library/inspect.html)
+    - [Python `dis`](https://docs.python.org/3/library/dis.html)
+    - [Python `ast`](https://docs.python.org/3/library/ast.html)
+- **Tools**: Tools for program tracing in Python
+    - [`coverage.py`](https://github.com/nedbat/coveragepy)
+    - [`line_profiler`](https://github.com/pyutils/line_profiler)
+    - [`python-hunter`](https://github.com/ionelmc/python-hunter)
+    - [`slipcover`](https://github.com/plasma-umass/slipcover)
+    - [`scalene`](https://github.com/plasma-umass/scalene)
 
 ## 🚀 Implementation Details
+
+## 🎉 Experiment Details
 
 ## ✨ Additional Information
 
