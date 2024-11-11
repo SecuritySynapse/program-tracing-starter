@@ -45,7 +45,7 @@ trace output at each step.
 
 _Reminder: Ensure the trace files are accurate and complete._
 
-## Analyze the Trace
+## Analyze the Traces
 
 TODO: Using Markdown tables, for each selected program and its test suite,
 use the `programtracer` tool's analysis features to gather information about the
@@ -80,7 +80,7 @@ _Reminder: Record performance metrics and trace file sizes._
 
 ## Analyze Results
 
-Summarize the findings from the experiment in this report. The report should include:
+Summarize the findings from the experiments in this report. The report should include:
     - An overview of the selected Python program and test suite.
     - A description of the trace output and its verification.
     - Results from the trace analysis, including any notable patterns or insights.
