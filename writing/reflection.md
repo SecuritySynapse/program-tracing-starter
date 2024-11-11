@@ -97,3 +97,5 @@ TODO: Provide a two to three sentence statement about the key takeaways from
 conducting this experiment. Please note that the course instructor will display
 some student takeaways on the course web site and use them to facilitate
 follow-on discussions during the class and laboratory sessions.
+
+_Reminder: Clearly summarize the key takeaways from this security survey project._
