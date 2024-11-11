@@ -100,6 +100,24 @@ Techniques](https://www.crowdstrike.com/en-us/cybersecurity-101/malware/malware-
 
 ## 🚀 Implementation Details
 
+After reading all of the background research and exploring the references that
+the prior section provides, you should pick a small Python program and Pytest
+test suite (perhaps even one that you wrote yourself) and attempt run it and
+then produce a trace of each line of source code that the test suite ran in the
+Python program. The trace that your tool produces should include all of the
+executed instructions at the level of the abstract syntax tree (AST), the Python
+source code, and/or the native code produced by the Python interpreter. Whenever
+possible, the trace should also include the values of variables that were
+accessed by each of the detected instructions. Finally, the trace should be
+stored in a file in either a plaintext, comma-separated value (CSV), or
+JavaScript object notation (JSON) format.
+
+Once you have an implementation that is working for a small Python project, you
+should create a complete implementation of the `programtracer` project, using
+the `main.py` file to implement the command-line interface (CLI) for the
+program. As you add features to your tool you should confirm that it works for
+progressively larger Python programs and test suites.
+
 ## 🎉 Experiment Details
 
 ## ✨ Additional Information
