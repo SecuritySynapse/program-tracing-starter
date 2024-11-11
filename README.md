@@ -38,7 +38,15 @@ ultimately apply the technical content found in additional resources.
 
 This project invites you to implement and use a program called `programtracer`
 that can produce a detailed trace of a program's execution in the service of
-automated malware analysis.
+automated malware analysis. As explained by CrowdStrike in the article entitled
+[10 Malware Detection
+Techniques](https://www.crowdstrike.com/en-us/cybersecurity-101/malware/malware-detection/),
+there a several different, often complementary techniques for detecting malware
+of a system. This project invites you to explore more about **dynamic malware
+analysis** where you will write a `programtracer` that will observe the
+execution of a Python program and then record a program trace that a malware
+analyst could study so as to better understand its behavior and to perhaps
+extract a behavior signature that could be used to detect it in the future.
 
 ### Features
 
